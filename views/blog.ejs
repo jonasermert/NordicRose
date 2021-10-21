@@ -1,0 +1,17 @@
+<%- include ('./partials/head') %>
+
+<body>
+
+    <section>
+
+        <%blogs.forEach(elt=>{%>
+        <div>
+            <img class="foto" src="<%=elt.url%>" alt="">
+            <h1><a href="/all/<%=elt.id%>"><%=elt.title%></a></h1>
+        </div>
+        <%})%>
+        </div>
+    </section>
+</body>
+
+</html>
