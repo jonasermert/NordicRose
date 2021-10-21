@@ -11,3 +11,4 @@ Benutze die POST-method um die Daten des Kontaktformulars im backend zuzugreifen
 # Lev3:
 Generiere mit push() neue articles
 
+https://www.figma.com/file/xmNTiIfMsylaUNyDq0gF9N/A-blog-template-(Community)?node-id=0%3A1
