@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-const PORT = process.env.PORT || 3005;
+const PORT = process.env.PORT || 3000;
 let data = [
   {
     id: 0,
@@ -159,7 +159,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 
 app.listen(PORT, () => {
-  console.log('server listening at https://localhost3005')
+  console.log('server listening at https://localhost3000')
 })
 app.get('/', (req, res) => {
 
