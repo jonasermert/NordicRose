@@ -180,7 +180,7 @@ app.post('/new', urlencodedParser, (req, res) => {
       req.body.title,
     body:
       "This lovely web is full of everything which is created I don't know what in mind, considering that sometimes totally bonkers stuff might be highly relevant if it has the right kind of thinking behind it.",
-    published_at: "Jun 26, 2020",
+    published_at: "Okt 21, 2021",
     duration: req.body.duration,
     author: req.body.author,
     author_bild: req.body.authorPicture,
